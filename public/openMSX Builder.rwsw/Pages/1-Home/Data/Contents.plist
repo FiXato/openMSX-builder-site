@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict>
+				<key>ArchivePostsEnabled</key>
+				<true/>
+				<key>ArchivePostsPeriod</key>
+				<integer>2</integer>
+				<key>ArchivePostsShowGaps</key>
+				<true/>
+				<key>Categories</key>
+				<array>
+					<dict>
+						<key>ID</key>
+						<integer>3</integer>
+						<key>Name</key>
+						<string>site updates</string>
+					</dict>
+					<dict>
+						<key>ID</key>
+						<integer>5</integer>
+						<key>Name</key>
+						<string>windows</string>
+					</dict>
+					<dict>
+						<key>ID</key>
+						<integer>6</integer>
+						<key>Name</key>
+						<string>builds</string>
+					</dict>
+					<dict>
+						<key>ID</key>
+						<integer>7</integer>
+						<key>Name</key>
+						<string>mac</string>
+					</dict>
+					<dict>
+						<key>ID</key>
+						<integer>9</integer>
+						<key>Name</key>
+						<string>debugger</string>
+					</dict>
+				</array>
+				<key>CategoriesEnabled</key>
+				<true/>
+				<key>CategoriesSeparatorText</key>
+				<string> | </string>
+				<key>CategoriesTitleText</key>
+				<string>Filed in: </string>
+				<key>CommentSeparatorText</key>
+				<string> | </string>
+				<key>CommentsRSSFeedText</key>
+				<string>Comments Feed</string>
+				<key>DateModifier1</key>
+				<string>%Y</string>
+				<key>DateModifier2</key>
+				<string>%b</string>
+				<key>DateModifier3</key>
+				<string>%d</string>
+				<key>DateModifier4</key>
+				<string>%H:%M</string>
+				<key>DateSeparatorText1</key>
+				<string> </string>
+				<key>DateSeparatorText2</key>
+				<string> </string>
+				<key>DateSeparatorText3</key>
+				<string> @</string>
+				<key>DateSeparatorText4</key>
+				<string> </string>
+				<key>EnableComments</key>
+				<false/>
+				<key>EnableCommentsInline</key>
+				<false/>
+				<key>EnableCustomiTunesTags</key>
+				<false/>
+				<key>EnablePing</key>
+				<false/>
+				<key>EnablePodcasting</key>
+				<true/>
+				<key>EnableRSS</key>
+				<false/>
+				<key>EnableSmileys</key>
+				<true/>
+				<key>Entries</key>
+				<array>
+					<dict>
+						<key>CategoryIDs</key>
+						<array>
+							<integer>6</integer>
+							<integer>7</integer>
+							<integer>9</integer>
+							<integer>3</integer>
+						</array>
+						<key>GUID</key>
+						<string>19be172c9ace099668989e9152ea6d7c</string>
+						<key>ID</key>
+						<integer>4</integer>
+						<key>Posted</key>
+						<date>2010-04-02T11:58:45Z</date>
+						<key>PublishStatus</key>
+						<integer>1</integer>
+						<key>Title</key>
+						<string>Debugger builds</string>
+					</dict>
+					<dict>
+						<key>CategoryIDs</key>
+						<array>
+							<integer>6</integer>
+							<integer>7</integer>
+						</array>
+						<key>GUID</key>
+						<string>26c3b779c513030873444fe7b79240c5</string>
+						<key>ID</key>
+						<integer>3</integer>
+						<key>Posted</key>
+						<date>2010-03-16T05:44:08Z</date>
+						<key>PublishStatus</key>
+						<integer>1</integer>
+						<key>Title</key>
+						<string>Universal Builds for Mac</string>
+					</dict>
+					<dict>
+						<key>CategoryIDs</key>
+						<array>
+							<integer>3</integer>
+							<integer>5</integer>
+							<integer>6</integer>
+						</array>
+						<key>GUID</key>
+						<string>47a8a18b5637dbf8db3f0beb987ccd5c</string>
+						<key>ID</key>
+						<integer>2</integer>
+						<key>Posted</key>
+						<date>2010-03-14T16:57:38Z</date>
+						<key>PublishStatus</key>
+						<integer>1</integer>
+						<key>Title</key>
+						<string>Windows builds</string>
+					</dict>
+					<dict>
+						<key>CategoryIDs</key>
+						<array>
+							<integer>3</integer>
+						</array>
+						<key>GUID</key>
+						<string>c9585f3d563cec05945cf8b7af3543cc</string>
+						<key>ID</key>
+						<integer>1</integer>
+						<key>Posted</key>
+						<date>2010-03-13T15:23:00Z</date>
+						<key>PublishStatus</key>
+						<integer>1</integer>
+						<key>Title</key>
+						<string>Future plans</string>
+					</dict>
+					<dict>
+						<key>CategoryIDs</key>
+						<array>
+							<integer>3</integer>
+						</array>
+						<key>GUID</key>
+						<string>c6b930f18e2f04dd8a5b2a6e5927f677</string>
+						<key>ID</key>
+						<integer>0</integer>
+						<key>Posted</key>
+						<date>2010-03-13T13:15:18Z</date>
+						<key>PublishStatus</key>
+						<integer>1</integer>
+						<key>Tags</key>
+						<array>
+							<string>site</string>
+							<string>update</string>
+						</array>
+						<key>Title</key>
+						<string>openMSX Builder is here!</string>
+					</dict>
+				</array>
+				<key>GeneratePermalinkPages</key>
+				<true/>
+				<key>GenerateRSSEntriesForMainPageOnly</key>
+				<false/>
+				<key>LastBuildDate</key>
+				<date>2010-04-02T13:45:04Z</date>
+				<key>LastID</key>
+				<integer>5</integer>
+				<key>LastSavedBuildDate</key>
+				<date>2010-03-13T13:07:18Z</date>
+				<key>LocaliseDate</key>
+				<false/>
+				<key>PermalinkText</key>
+				<string>Permalink</string>
+				<key>PingSites</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>technorati.com</string>
+						<key>rpc</key>
+						<integer>1</integer>
+						<key>url</key>
+						<string>http://rpc.technorati.com/rpc/ping</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>pingomatic.com</string>
+						<key>rpc</key>
+						<integer>1</integer>
+						<key>url</key>
+						<string>http://rpc.pingomatic.com/</string>
+					</dict>
+				</array>
+				<key>PrependSummaryToPost</key>
+				<false/>
+				<key>RSSCopyrightText</key>
+				<string>Copyright 2010 Filip H.F. "FiXato" Slagter</string>
+				<key>RSSCreator</key>
+				<string>fixato@gmail.com</string>
+				<key>RSSDescription</key>
+				<string>Hot News!</string>
+				<key>RSSFeedLinkText</key>
+				<string>RSS Feed</string>
+				<key>RSSLanguage</key>
+				<string>English</string>
+				<key>RSSTitleText</key>
+				<string>My RSS Feed</string>
+				<key>ShowCategoryPostCounts</key>
+				<true/>
+				<key>ShowTagPostCounts</key>
+				<false/>
+				<key>SortedCategoryExport</key>
+				<true/>
+				<key>TagCloudEnabled</key>
+				<true/>
+				<key>TagsEnabled</key>
+				<false/>
+				<key>TagsSeparatorText</key>
+				<string>, </string>
+				<key>TagsTitleText</key>
+				<string>Tags: </string>
+				<key>UsePHPForSidebarContent</key>
+				<false/>
+			</dict>
+			<key>Files</key>
+			<array>
+				<string>1-Body.as</string>
+				<string>1-Summary.as</string>
+				<string>2-Body.as</string>
+				<string>2-Summary.as</string>
+				<string>3-Body.as</string>
+				<string>3-Summary.as</string>
+				<string>4-Body.as</string>
+				<string>4-Summary.as</string>
+				<string>5-Body.as</string>
+				<string>5-Summary.as</string>
+			</array>
+			<key>Subsandwiches</key>
+			<array/>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>RapidWeaver Blog Page Data</string>
+</dict>
+</plist>
