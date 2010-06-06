@@ -25,122 +25,132 @@
 				<key>PublishingManifest</key>
 				<dict>
 					<key>CreationDate</key>
-					<date>2010-04-02T13:54:47Z</date>
+					<date>2010-06-06T09:30:15Z</date>
 					<key>DigestAlgorithm</key>
 					<string>MD5</string>
 					<key>DocumentGUID</key>
 					<string>4F646D17-2AA8-407B-BAEB-955B437C2318</string>
 					<key>PageDigests</key>
 					<dict>
+						<key>files/0e75140286abacf86c620bf109e5d49e-5.html</key>
+						<dict>
+							<key>Digest</key>
+							<data>
+							BruqW9B7vHnYlAIq64RO
+							/g==
+							</data>
+							<key>Size</key>
+							<integer>8564</integer>
+						</dict>
 						<key>files/19be172c9ace099668989e9152ea6d7c-4.html</key>
 						<dict>
 							<key>Digest</key>
 							<data>
-							PMaTD5V59zz0fycHYjAr
-							yg==
+							EmqKTy7ZWPpKq9ddJXyj
+							Og==
 							</data>
 							<key>Size</key>
-							<integer>9398</integer>
+							<integer>9411</integer>
 						</dict>
 						<key>files/26c3b779c513030873444fe7b79240c5-3.html</key>
 						<dict>
 							<key>Digest</key>
 							<data>
-							bv7NENipml9NrhQscSOy
-							Rw==
+							Ca1Zz4oWJNE1wvtgsAD3
+							PQ==
 							</data>
 							<key>Size</key>
-							<integer>8138</integer>
+							<integer>8151</integer>
 						</dict>
 						<key>files/47a8a18b5637dbf8db3f0beb987ccd5c-2.html</key>
 						<dict>
 							<key>Digest</key>
 							<data>
-							5t6XbhYBi4hl7MuMRToF
-							rw==
+							pEgpz/47kRyBCg+aOlt2
+							xA==
 							</data>
 							<key>Size</key>
-							<integer>7854</integer>
+							<integer>7867</integer>
 						</dict>
 						<key>files/c6b930f18e2f04dd8a5b2a6e5927f677-0.html</key>
 						<dict>
 							<key>Digest</key>
 							<data>
-							21/10jm++lrTml65Kw62
-							kg==
+							gHlQI7ItKzQWKa9g52fe
+							QQ==
 							</data>
 							<key>Size</key>
-							<integer>8645</integer>
+							<integer>8658</integer>
 						</dict>
 						<key>files/c9585f3d563cec05945cf8b7af3543cc-1.html</key>
 						<dict>
 							<key>Digest</key>
 							<data>
-							Dq2uTdMZRZpiUwRjD7N5
-							uQ==
+							U5PmqmzNC8UczrpkiWU9
+							yw==
 							</data>
 							<key>Size</key>
-							<integer>8915</integer>
+							<integer>8928</integer>
 						</dict>
 						<key>files/category-builds.html</key>
 						<dict>
 							<key>Digest</key>
 							<data>
-							IC+fgUZDs05Fm81V3KTR
-							JA==
+							xqcASHEvqeDXbUCveQZ6
+							0A==
 							</data>
 							<key>Size</key>
-							<integer>12655</integer>
+							<integer>14889</integer>
 						</dict>
 						<key>files/category-debugger.html</key>
 						<dict>
 							<key>Digest</key>
 							<data>
-							rLWWRVh7rhCCU628d3Iq
-							7A==
+							bx9GKx11JIDw7SrhUfTy
+							kQ==
 							</data>
 							<key>Size</key>
-							<integer>9211</integer>
+							<integer>9224</integer>
 						</dict>
 						<key>files/category-mac.html</key>
 						<dict>
 							<key>Digest</key>
 							<data>
-							B41Pk8MbVv3Wa7rEvgzR
-							fA==
+							wpmF0YYnZ14plaU1mYiK
+							8g==
 							</data>
 							<key>Size</key>
-							<integer>11143</integer>
+							<integer>13377</integer>
 						</dict>
 						<key>files/category-site-updates.html</key>
 						<dict>
 							<key>Digest</key>
 							<data>
-							ed/gjUUzZq6mock5kd5d
-							pA==
+							mVtSzG1/qksz12tmpjKn
+							mg==
 							</data>
 							<key>Size</key>
-							<integer>16085</integer>
+							<integer>16098</integer>
 						</dict>
 						<key>files/category-windows.html</key>
 						<dict>
 							<key>Digest</key>
 							<data>
-							r15t3bIyDSoqi0qIqEXZ
-							Sg==
+							FLdml85w7g1QAtiAcYV9
+							lg==
 							</data>
 							<key>Size</key>
-							<integer>7785</integer>
+							<integer>10019</integer>
 						</dict>
 						<key>index.html</key>
 						<dict>
 							<key>Digest</key>
 							<data>
-							Los2mvQfURxWCe9d6gyS
-							QQ==
+							kEfqT6kXILBZCuZSgTu2
+							eA==
 							</data>
 							<key>Size</key>
-							<integer>18546</integer>
+							<integer>21049</integer>
 						</dict>
 						<key>rw_common/images/openMSX-logo-128.png</key>
 						<dict>

@@ -1,12 +1,17 @@
 /* @group General Styles */
-
+html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 body {
 	text-align: center;
-	background: #323548 url(images/bg.png);
+	background: #323548;/* url("images/bg.png");*/
 	margin: 0px;
 	padding: 0px;
 	color: #ffffff;
 	font: 0.75em 'Lucida Grande', LucidaGrande, Lucida, Helvetica, Arial, sans-serif;
+	overflow: auto;
 }
 
 p {
@@ -32,6 +37,14 @@ img {
 	border-style: none;
 }
 
+.blog-image-smiley { height: 1.3em; width: 1.3em;vertical-align: bottom;}
+#intro { 
+  margin-bottom: 1em;
+  padding: 0.5em;
+  background-color: rgb(90,92,109);  
+  background-color: rgba(255,255,255,0.2);  
+}
+
 .image-left {
 	float: left;
 	margin: 3px 3px 3px 0;
@@ -47,26 +60,61 @@ img {
 /* @end */
 
 /* @group Layout */
-
-#container { 
-	width: 600px;
-	margin: 0px auto; /* Right And Left Margin Widths To Auto */
-	text-align: left; /* Hack To Keep IE5 Windows Happy */
+#twitterBar {
+  width: 155px;
+  overflow: hidden;
 }
+#twitterBar h3 { margin-bottom: 0.5em;margin-top: 0.5em;}
+.twtr-bd {font-size: 0.8em;}
+.twtr-hd,.twtr-ft { display:none;}
+.twtr-hd h4 a {font-size: 0.8em;margin: 0;}
+#container { 
+	width: 700px;
+	overflow: hidden;
+	margin: 0px auto; /* Right And Left Margin Widths To Auto */
+	padding-bottom: 60px;
+	text-align: left; /* Hack To Keep IE5 Windows Happy */
+	border-left: 3px double rgb(200,200,220);
+	border-left: 3px double rgba(200,200,220,0.5);
+	border-right: 3px double rgb(100,100,120);
+  border-right: 3px double rgba(100,100,120,0.8);
+/*  border-bottom: 3px double rgb(100,100,120);
+  border-bottom: 3px double rgba(100,100,120,0.8);
+*/
+/*  background-color: rgb(200,200,200);
+  background-color: rgba(200,200,200,0.5);
+*/}
 
+#footer {
+  width: 700px;
+  height: 40px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  bottom: 0px;
+  font-size: 0.8em;
+	background: #323548; /*url("images/bg.png");*/
+	position: fixed;
+  border-top: 3px double rgb(100,100,120);
+  border-top: 3px double rgba(100,100,120,0.8);
+}
+#footer p {margin: 0;margin-bottom: 0.5em;}
 #clearer {
 }
 
 #pageHeader {
-	width: 600px;
-	height: 75px;
-	background: no-repeat url(images/bg_glow.png);
+	width: 700px;
+	background: no-repeat url("images/bg_glow.jpg");
+  background-color: #323548;
+	position: fixed;
 }
 
 #pageHeader img {
 }
 #pageHeader #logo {
-  display: inline-box;
+  float: right;
+  padding-top: 4px;
+}
+#pageHeader #logo_left {
   float: left;
   padding-top: 10px;
 }
@@ -75,25 +123,24 @@ img {
 	text-align: center;
 	text-shadow: 0px 2px 3px #323548;
 	margin: 0px;
-	padding-top: 10px;
-	margin-right: 70px;
+	padding-top: 11px;
 	font-weight: normal;
 }
 
 #pageHeader h2 {
 	color: #dfe2f1;
-	text-align: right;
+	text-align: center;
 	text-shadow: 0px 2px 3px #323548;
 	margin: 0;
-	margin-right: 70px;
 	font-weight: normal;
 	font-size: 1.3em;
 }
 
 #contentContainer {
-	text-align: left;
-	width: 410px;
-	float: left;
+	text-align: justify;
+  width: 520px;
+  margin-top: 130px;
+  float: left;
 }
 
 #contentContainer #content {
@@ -101,17 +148,22 @@ img {
 }
 
 #sidebarContainer {
-	width: 180px;
+  text-align: right;
+	margin-top: 130px;
+	margin-left: 520px;
 	float: right;
-	text-align: left;
+	position: fixed;
 }
-
+#sidebarBuilds ul {
+  list-style: none;
+}
 #sidebarContainer #sidebar {
 	padding: 20px 10px;
 }
 
 #sidebarContainer .sideHeader {
 	font-size: 1.2em;
+	padding-right: 5px;
 }
 
 #footer { 
@@ -163,9 +215,10 @@ img {
 
 #navcontainer {
 	background: url(images/toolbar.png) no-repeat left top;
-	width: 680px;
+	width: 700px;
 	height: 66px;
 	position: relative;
+	top: 20px;
 }
 
 #navcontainer #current {
@@ -196,8 +249,12 @@ img {
 	float: left;
 }
 
+#navcontainer a:first-child {
+  padding-left: 2em;
+}
 #navcontainer a {
-	width: 120px;
+	max-width: 150px;
+	padding-left: 0.5em;
 	height: 30px;
 	display: block;
 	
@@ -224,7 +281,7 @@ img {
 	position: absolute;
 	left: 0px;
 	top: 32px;
-	width: 600px;
+	width: 700px;
 }
 
 #navcontainer ul ul li {
@@ -473,6 +530,9 @@ ul.blog-tag-cloud li {
 
 .blog-entry {
 	margin-bottom: 20px;
+	padding-bottom: 1em;
+	border-bottom: 1px dashed rgb(255,255,255);
+	border-bottom: 1px dashed rgba(255,255,255,0.3);
 }
 
 .blog-entry-title {
@@ -499,6 +559,10 @@ ul.blog-tag-cloud li {
 }
 
 .blog-entry-body {
+}
+
+.blog-entry-body a {
+  color: #4D8BAD;
 }
 
 .blog-entry-comments {
@@ -647,7 +711,7 @@ ul.blog-tag-cloud li {
 .photo-navigation {
 	background: url(images/toolbar.png) no-repeat;
 	height: 66px;
-	width: 600px;
+	width: 700px;
 	margin: 0px auto 20px; /* Right And Left Margin Widths To Auto */
 	text-align: center; /* Hack To Keep IE5 Windows Happy */;
 	padding-top: 5px;

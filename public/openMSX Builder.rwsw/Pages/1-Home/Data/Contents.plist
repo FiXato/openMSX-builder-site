@@ -92,6 +92,24 @@
 						<key>CategoryIDs</key>
 						<array>
 							<integer>6</integer>
+							<integer>5</integer>
+							<integer>7</integer>
+						</array>
+						<key>GUID</key>
+						<string>0e75140286abacf86c620bf109e5d49e</string>
+						<key>ID</key>
+						<integer>5</integer>
+						<key>Posted</key>
+						<date>2010-06-06T08:48:33Z</date>
+						<key>PublishStatus</key>
+						<integer>1</integer>
+						<key>Title</key>
+						<string>openMSX 0.8.0 Preview builds</string>
+					</dict>
+					<dict>
+						<key>CategoryIDs</key>
+						<array>
+							<integer>6</integer>
 							<integer>7</integer>
 							<integer>9</integer>
 							<integer>3</integer>
@@ -185,9 +203,9 @@
 				<key>GenerateRSSEntriesForMainPageOnly</key>
 				<false/>
 				<key>LastBuildDate</key>
-				<date>2010-04-02T13:45:04Z</date>
+				<date>2010-06-06T09:31:00Z</date>
 				<key>LastID</key>
-				<integer>5</integer>
+				<integer>6</integer>
 				<key>LastSavedBuildDate</key>
 				<date>2010-03-13T13:07:18Z</date>
 				<key>LocaliseDate</key>
@@ -256,6 +274,8 @@
 				<string>4-Summary.as</string>
 				<string>5-Body.as</string>
 				<string>5-Summary.as</string>
+				<string>6-Body.as</string>
+				<string>6-Summary.as</string>
 			</array>
 			<key>Subsandwiches</key>
 			<array/>
