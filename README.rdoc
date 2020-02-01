@@ -1,5 +1,5 @@
 = openMSX-builder-site
-The (former) source code of the [openMSX Builder website](https://openmsx.fixato.net).
+The (former) source code of the {openMSX Builder website}[https://openmsx.fixato.net].
 
 == Discontinuation notice
 No longer actively maintained for now.
