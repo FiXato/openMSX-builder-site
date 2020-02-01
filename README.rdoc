@@ -1,6 +1,8 @@
 = openMSX-builder-site
+The (former) source code of the [openMSX Builder website](https://openmsx.fixato.net).
 
-Description goes here.
+== Discontinuation notice
+No longer actively maintained for now.
 
 == Note on Patches/Pull Requests
  
